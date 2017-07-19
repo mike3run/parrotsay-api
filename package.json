@@ -11,7 +11,8 @@
     "pretest": "npm run get-ready",
     "test": "xo",
     "prepublish": "npm run get-ready",
-    "postversion": "npm publish; npm run push; npm run deploy"
+    "push": "git push; git push --tags",
+    "postversion": "npm publish; npm run push"
   },
   "repository": {
     "type": "git",
