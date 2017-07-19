@@ -1,13 +1,14 @@
 {
-  "name": "parrotsay-api",
-  "version": "0.1.1",
-  "description": "An API to say things with the Party Parrot",
+  "name": "sync-parrot-api",
+  "version": "1.0.0",
+  "description": "A Sync API to say things with the Party Parrot",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "test": "xo"
+    "test": "xo",
+    "prepublish": "gulp transpile; gulp move-the-parrots"
   },
   "repository": {
     "type": "git",

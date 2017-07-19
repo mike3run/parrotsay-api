@@ -10,11 +10,9 @@ npm install --save parrotsay-api
 
 ```js
 // example.js
-const parrotSay = require('parrotsay-api')
+const parrotSay = require('sync-parrot-api')
 
-parrotSay('yaaay')
-  .then(console.log)
-  .catch(console.error)
+console.log(parrotSay('yaaay'))
 ```
 <img src="example.png" width="629">
 <!-- TODO: change it to a GitHub url – see https://git.io/hpm README.md -->
