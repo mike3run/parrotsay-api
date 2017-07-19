@@ -1,9 +1,9 @@
-# parrotsay-api
+# sync-parrot-api
 
 ## Install
 
 ```
-npm install --save parrotsay-api
+npm install --save sync-parrot-api
 ```
 
 ## Usage
